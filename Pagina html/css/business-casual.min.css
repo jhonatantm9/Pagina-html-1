@@ -1,0 +1,400 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+    font-family: Lora;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway
+}
+
+p {
+    line-height: 1.75
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, .3)
+}
+
+.text-blue {
+    color: #073a69
+}
+
+.site-heading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: Raleway
+}
+
+.site-heading .site-heading-upper {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.site-heading .site-heading-lower {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 4rem
+}
+
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.section-heading {
+    text-transform: uppercase
+}
+
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 300
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, .85)
+}
+
+#mainNav {
+    background-color: rgba(47, 23, 15, .9);
+    font-family: Raleway
+}
+
+#mainNav .navbar-brand {
+    color: #e6a756
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, .7);
+    font-weight: 800
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #e6a756
+}
+
+@media (min-width:992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: .9rem
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: rgba(255, 255, 255, .4)
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+        color: #e6a756
+    }
+}
+
+.btn-xl {
+    font-weight: 700;
+    font-size: .8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+/* Inicio del código propio */
+/*Formato del texto de la sección de introducción*/
+.intro-text-center {
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.7rem;
+}
+
+/*Formato de la imagen de la sección de introducción*/
+.img-big-center {
+    position: relative;
+    left: 5%;
+    width: 90%;
+}
+
+/*Formato para las secciones en las que aparece una imagen y un texto al lado de esta*/
+.section-one-side {
+    position: relative;
+}
+
+@media (min-width:992px) {
+    .section-one-side .img-right {
+        width: 75%;
+        float: right;
+    }
+    .section-one-side .img-left {
+        width: 75%;
+        float: left;
+    }
+    .section-one-side .text-left {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+        float: left;
+    }
+    .section-one-side .text-right {
+        right: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+        float: right;
+    }
+}
+
+@media (min-width:1200px) {
+    .section-one-side .text-left {
+        width: 45%
+    }
+    .section-one-side .text-right {
+        width: 45%
+    }
+}
+
+/*Formato para las secciones en las que aparece una imagen y un texto arriba o abajo de esta*/
+.section-center{
+    position: relative;
+}
+
+.section-center .img-down{
+    display: block;
+    width: 85%;
+    margin-top: -1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-center .text-up{
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: -1.5rem;
+}
+.section-center .img-up{
+    display: block;
+    width: 85%;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-center .text-down{
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.5rem;
+}
+.section-center .img-center{
+    display: block;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Formato para las secciones en las que aparece una imagen y diagonal a esta aparece el texto*/
+.section-diagonal{
+    position: relative;
+}
+@media (min-width:992px) {
+    .section-diagonal .img-center {
+        display: block;
+        position: relative;        
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 0;
+        max-width: 70vw;
+    }
+    .section-diagonal .text-up {
+        position: relative;
+        z-index: 1;
+        margin-top: 3rem;
+        max-width: 50%;
+        margin-bottom: -3em;
+    }
+    .section-diagonal .text-down {
+        position: relative;
+        z-index: 1;
+        margin-top: -3em;
+        max-width: 50%;
+        margin-bottom: 3rem;
+    }
+}
+
+/*Tamaños de imagen para cuando son muy grandes*/
+.img-size-75{
+    width: 75%;
+}
+.img-size-60{
+    width: 60%;
+}
+.img-carrousel-size{
+    max-height: 500px;
+    width: auto;
+    object-fit: contain;
+}
+
+.bg-yellow{
+    background-color: #e6a756;
+}
+.bg-light-green{
+    background-color: #92f139;
+}
+/* Fin del código propio */
+
+.intro {
+    position: relative
+}
+
+@media (min-width:992px) {
+    .intro .intro-img {
+        width: 100%;
+    }
+    .intro .intro-text {
+        left:0;width:60%;margin-top:3rem;position:absolute
+    }
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem
+    }
+}
+
+@media (min-width:1200px) {
+    .intro .intro-text {
+        width: 45%
+    }
+}
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(230, 167, 86, .9)
+}
+
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: .5rem;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.cta .cta-inner:before {
+    border-radius: .5rem;
+    content: '';
+    position: absolute;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid rgba(255, 255, 255, .85);
+    z-index: -1
+}
+
+@media (min-width:992px) {
+    .about-heading .about-heading-img {
+        position: relative;
+        z-index: 0
+    }
+    .about-heading .about-heading-content {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1
+    }
+}
+
+@media (min-width:992px) {
+    .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -3rem
+    }
+    .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw
+    }
+    .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -3rem;
+        max-width: 50vw
+    }
+}
+
+.list-hours {
+    font-size: .9rem
+}
+
+.list-hours .list-hours-item {
+    border-bottom: 1px solid rgba(230, 167, 86, .5);
+    padding-bottom: .25rem;
+    margin-bottom: 1rem;
+    font-style: italic
+}
+
+.list-hours .list-hours-item.today {
+    font-weight: 700;
+    color: #e6a756
+}
+
+@media (min-width:992px) {
+    .list-hours {
+        width: 50%;
+        font-size: 1.1rem
+    }
+}
+
+.address strong {
+    font-size: 1.2rem
+}
+
+.footer {
+    background-color: rgba(47, 23, 15, .9)
+}
+
+.text-primary {
+    color: #e6a756!important
+}
+
+.bg-primary {
+    background-color: #e6a756!important
+}
+
+.btn {
+    box-shadow: 0 3px 3px 0 rgba(33, 37, 41, .1)
+}
+
+.btn-primary {
+    background-color: #e6a756;
+    border-color: #e6a756
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #df902a;
+    border-color: #df902a
+}
+
+.font-weight-light {
+    font-weight: 100!important
+}

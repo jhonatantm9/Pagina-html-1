@@ -1,0 +1,4 @@
+Con respecto a HTML y CSS, las partes de encabezado, barra de navegación, pie de página
+y carrusel de imágenes (galería de imágenes), utilicé plantillas que traía bootstrap o encontré en internet (de bootstrap igualmente); sin embargo en la parte del contenido de cada página, la organización y algunas partes como los fondos están hechos por mí, mientras que el formato del texto o la forma de los cuadros también están basados en la plantilla.
+
+Con respecto a JavaScript, la única funcionalidad propia que hice fueron los botones de "Más información" en cada página (y de hecho creo que es lo único que utiliza JavaScript, a no ser que el código de alguna plantilla lo utilice y no lo sepa)
